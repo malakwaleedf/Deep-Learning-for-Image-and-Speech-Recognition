@@ -1,0 +1,99 @@
+[Train] found 1200 files
+[Test] found 300 files
+Original dataset is conveted to spectrogram
+
+Copying spectrograms-dataset to speech-aug-spectrograms-dataset
+[Speech Aug] processing 1200 training files
+Speech augmentations added to original dataset
+
+Copying spectrograms-dataset to image-aug-spectrograms-dataset
+[Image Aug] processing 1200 training files
+Image augmentations added to original dataset
+
+Copying spectrograms-dataset to combined-aug-spectrogram-dataset
+Copying speech-aug-spectrograms-dataset to combined-aug-spectrogram-dataset
+Copying image-aug-spectrograms-dataset to combined-aug-spectrogram-dataset
+Speech and image augmentations added to original dataset
+
+Variation 1: training AlexNet model using original spectrograms dataset
+Train set size: 1200
+Test set size:  300
+Variation 1 training:
+Epoch 1/10 | Loss: 89.7614 | Accuracy: 12.5%
+Epoch 2/10 | Loss: 57.7733 | Accuracy: 44.4%
+Epoch 3/10 | Loss: 31.5106 | Accuracy: 70.0%
+Epoch 4/10 | Loss: 21.5117 | Accuracy: 80.6%
+Epoch 5/10 | Loss: 15.0489 | Accuracy: 85.8%
+Epoch 6/10 | Loss: 12.9318 | Accuracy: 89.4%
+Epoch 7/10 | Loss: 8.2761 | Accuracy: 92.3%
+Epoch 8/10 | Loss: 9.3284 | Accuracy: 92.6%
+Epoch 9/10 | Loss: 6.6334 | Accuracy: 94.7%
+Epoch 10/10 | Loss: 5.6695 | Accuracy: 94.5%
+Total Training Time: 1001347.0 ms
+Variation 1 test:
+Test Accuracy: 88.0% | Test Time: 10917.8 ms
+Variation 2: training AlexNet model using original spectrograms dataset and speech augmented spectrograms
+Train set size: 4800
+Test set size:  300
+Variation 2 training:
+Epoch 1/10 | Loss: 297.9301 | Accuracy: 25.6%
+Epoch 2/10 | Loss: 79.9990 | Accuracy: 81.9%
+Epoch 3/10 | Loss: 29.9993 | Accuracy: 93.2%
+Epoch 4/10 | Loss: 17.5400 | Accuracy: 96.2%
+Epoch 5/10 | Loss: 15.7333 | Accuracy: 96.7%
+Epoch 6/10 | Loss: 15.2882 | Accuracy: 96.8%
+Epoch 7/10 | Loss: 14.6035 | Accuracy: 97.1%
+Epoch 8/10 | Loss: 6.8158 | Accuracy: 98.8%
+Epoch 9/10 | Loss: 8.0907 | Accuracy: 98.6%
+Epoch 10/10 | Loss: 6.0022 | Accuracy: 99.0%
+Total Training Time: 3513185.6 ms
+Variation 2 test:
+Test Accuracy: 91.7% | Test Time: 10160.9 ms
+Variation 3: training AlexNet model using original spectrograms dataset and image augmented spectrograms
+Train set size: 4800
+Test set size:  300
+Variation 3 training:
+Epoch 1/10 | Loss: 277.2371 | Accuracy: 31.2%
+Epoch 2/10 | Loss: 75.2403 | Accuracy: 83.3%
+Epoch 3/10 | Loss: 31.4235 | Accuracy: 93.0%
+Epoch 4/10 | Loss: 23.9832 | Accuracy: 95.0%
+Epoch 5/10 | Loss: 14.4814 | Accuracy: 96.8%
+Epoch 6/10 | Loss: 10.7499 | Accuracy: 97.9%
+Epoch 7/10 | Loss: 10.2509 | Accuracy: 97.9%
+Epoch 8/10 | Loss: 9.5386 | Accuracy: 98.0%
+Epoch 9/10 | Loss: 10.6206 | Accuracy: 98.1%
+Epoch 10/10 | Loss: 7.8346 | Accuracy: 98.5%
+Total Training Time: 3694575.0 ms
+Variation 3 test:
+Test Accuracy: 92.0% | Test Time: 10998.8 ms
+Variation 4: training AlexNet model using original spectrograms dataset, speech augmented spectrograms and image augmented spectrograms
+Train set size: 8400
+Test set size:  300
+Variation 4 training:
+Epoch 1/15 | Loss: 241.9422 | Accuracy: 66.5%
+Epoch 2/15 | Loss: 33.9209 | Accuracy: 96.0%
+Epoch 3/15 | Loss: 24.5841 | Accuracy: 97.2%
+Epoch 4/15 | Loss: 16.5848 | Accuracy: 98.0%
+Epoch 5/15 | Loss: 12.5740 | Accuracy: 98.5%
+Epoch 6/15 | Loss: 8.5782 | Accuracy: 99.0%
+Epoch 7/15 | Loss: 18.1092 | Accuracy: 98.1%
+Epoch 8/15 | Loss: 15.9632 | Accuracy: 98.4%
+Epoch 9/15 | Loss: 3.9891 | Accuracy: 99.6%
+Epoch 10/15 | Loss: 7.3091 | Accuracy: 99.3%
+Epoch 11/15 | Loss: 3.5295 | Accuracy: 99.7%
+Epoch 12/15 | Loss: 13.6630 | Accuracy: 98.7%
+Epoch 13/15 | Loss: 8.7977 | Accuracy: 99.3%
+Epoch 14/15 | Loss: 9.7954 | Accuracy: 99.0%
+Epoch 15/15 | Loss: 0.6725 | Accuracy: 99.9%
+Total Training Time: 9770687.2 ms
+Variation 4 test:
+Test Accuracy: 94.0% | Test Time: 7427.8 ms
+
+========== RESULTS TABLE ==========
+Variation            Train Acc     Train Time    Test Acc      Test Time
+------------------------------------------------------------------------
+V1 (Original)            94.5%     1001347.0 ms       88.0%       10917.8 ms
+V2 (Speech aug)          99.0%     3513185.6 ms       91.7%       10160.9 ms
+V3 (Image aug)           98.5%     3694575.0 ms       92.0%       10998.8 ms
+V4 (Combined aug)        99.9%     9770687.2 ms       94.0%        7427.8 ms
+
