@@ -6,17 +6,26 @@ This repository contains a collection of deep learning projects developed using 
 
 ## Features
 Handwritten digit classification using LeNet-5 variants
+
 Spectrogram-based speech recognition using AlexNet
+
 Speech and image data augmentation pipelines
+
 Spatial and separable attention mechanisms
+
 Performance comparison across multiple CNN architectures
 
 ## Technologies
 Python
+
 PyTorch
+
 OpenCV
+
 NumPy
+
 Matplotlib
+
 
 ## Results
 Task	Best Test Accuracy
