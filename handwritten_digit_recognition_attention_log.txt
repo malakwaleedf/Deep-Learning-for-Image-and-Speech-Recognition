@@ -1,0 +1,58 @@
+Train set size: 10000
+Test set size:  2000
+Model 1: Lenet-5 for 28*28
+Model 1 training:
+Epoch 1/20 | Loss: 248.5889 | Accuracy: 73.7%
+Epoch 2/20 | Loss: 93.0446 | Accuracy: 90.7%
+Epoch 3/20 | Loss: 60.0588 | Accuracy: 94.0%
+Epoch 4/20 | Loss: 47.1655 | Accuracy: 95.2%
+Epoch 5/20 | Loss: 38.9845 | Accuracy: 96.1%
+Epoch 6/20 | Loss: 30.3366 | Accuracy: 96.9%
+Epoch 7/20 | Loss: 25.8927 | Accuracy: 97.4%
+Epoch 8/20 | Loss: 23.3690 | Accuracy: 97.6%
+Epoch 9/20 | Loss: 19.0100 | Accuracy: 98.1%
+Epoch 10/20 | Loss: 18.7527 | Accuracy: 98.1%
+Epoch 11/20 | Loss: 15.0785 | Accuracy: 98.2%
+Epoch 12/20 | Loss: 14.3553 | Accuracy: 98.4%
+Epoch 13/20 | Loss: 11.6196 | Accuracy: 98.8%
+Epoch 14/20 | Loss: 9.8851 | Accuracy: 98.9%
+Epoch 15/20 | Loss: 9.8346 | Accuracy: 98.9%
+Epoch 16/20 | Loss: 8.9382 | Accuracy: 99.1%
+Epoch 17/20 | Loss: 7.1849 | Accuracy: 99.2%
+Epoch 18/20 | Loss: 8.0286 | Accuracy: 99.2%
+Epoch 19/20 | Loss: 6.2039 | Accuracy: 99.3%
+Epoch 20/20 | Loss: 4.3453 | Accuracy: 99.6%
+Total Training Time: 1507765.0 ms
+Model 1 test:
+Test Accuracy: 98.0% | Test Time: 50103.4 ms
+Model 2: Lenet-5 for 28*28 with attention
+Model 2 training:
+Epoch 1/20 | Loss: 236.6331 | Accuracy: 75.8%
+Epoch 2/20 | Loss: 82.9893 | Accuracy: 91.9%
+Epoch 3/20 | Loss: 55.1703 | Accuracy: 94.6%
+Epoch 4/20 | Loss: 41.8564 | Accuracy: 95.9%
+Epoch 5/20 | Loss: 33.9980 | Accuracy: 96.6%
+Epoch 6/20 | Loss: 29.1542 | Accuracy: 97.0%
+Epoch 7/20 | Loss: 24.9780 | Accuracy: 97.4%
+Epoch 8/20 | Loss: 21.3906 | Accuracy: 97.9%
+Epoch 9/20 | Loss: 17.9583 | Accuracy: 98.2%
+Epoch 10/20 | Loss: 17.2328 | Accuracy: 98.2%
+Epoch 11/20 | Loss: 14.4399 | Accuracy: 98.4%
+Epoch 12/20 | Loss: 13.6045 | Accuracy: 98.6%
+Epoch 13/20 | Loss: 11.3105 | Accuracy: 98.8%
+Epoch 14/20 | Loss: 9.6250 | Accuracy: 99.1%
+Epoch 15/20 | Loss: 9.6301 | Accuracy: 99.0%
+Epoch 16/20 | Loss: 7.9861 | Accuracy: 99.2%
+Epoch 17/20 | Loss: 7.8550 | Accuracy: 99.2%
+Epoch 18/20 | Loss: 5.1537 | Accuracy: 99.5%
+Epoch 19/20 | Loss: 5.9344 | Accuracy: 99.4%
+Epoch 20/20 | Loss: 6.1984 | Accuracy: 99.4%
+Total Training Time: 1339512.7 ms
+Model 2 test:
+Test Accuracy: 98.2% | Test Time: 12077.8 ms
+
+========== RESULTS TABLE ==========
+Model                       Train Acc     Train Time   Test Acc      Test Time
+--------------------------------------------------------------------------------
+Lenet-5                         99.6%   1507765.0 ms      98.0%     50103.4 ms
+Lenet-5 with attention          99.4%   1339512.7 ms      98.2%     12077.8 ms

@@ -1,0 +1,58 @@
+Train set size: 1200
+Test set size:  300
+Model 1: AlexNet
+Model 1 training:
+Epoch 1/20 | Loss: 44.5400 | Accuracy: 10.9%
+Epoch 2/20 | Loss: 41.8133 | Accuracy: 16.6%
+Epoch 3/20 | Loss: 30.2867 | Accuracy: 45.5%
+Epoch 4/20 | Loss: 15.3596 | Accuracy: 70.8%
+Epoch 5/20 | Loss: 10.4894 | Accuracy: 80.6%
+Epoch 6/20 | Loss: 7.9462 | Accuracy: 86.2%
+Epoch 7/20 | Loss: 5.5541 | Accuracy: 89.6%
+Epoch 8/20 | Loss: 5.6590 | Accuracy: 89.9%
+Epoch 9/20 | Loss: 3.9252 | Accuracy: 93.0%
+Epoch 10/20 | Loss: 2.8265 | Accuracy: 94.8%
+Epoch 11/20 | Loss: 2.9527 | Accuracy: 95.4%
+Epoch 12/20 | Loss: 2.4223 | Accuracy: 95.3%
+Epoch 13/20 | Loss: 2.2346 | Accuracy: 96.5%
+Epoch 14/20 | Loss: 1.1789 | Accuracy: 97.8%
+Epoch 15/20 | Loss: 1.7360 | Accuracy: 97.3%
+Epoch 16/20 | Loss: 1.5666 | Accuracy: 97.0%
+Epoch 17/20 | Loss: 0.7850 | Accuracy: 98.6%
+Epoch 18/20 | Loss: 0.5755 | Accuracy: 99.5%
+Epoch 19/20 | Loss: 0.8839 | Accuracy: 98.3%
+Epoch 20/20 | Loss: 1.4281 | Accuracy: 98.2%
+Total Training Time: 1685468.1 ms
+Model 1 test:
+Test Accuracy: 89.3% | Test Time: 12393.0 ms
+Model 2: AlexNet with attention
+Model 2 training:
+Epoch 1/20 | Loss: 43.9281 | Accuracy: 10.3%
+Epoch 2/20 | Loss: 39.8837 | Accuracy: 22.2%
+Epoch 3/20 | Loss: 24.7262 | Accuracy: 51.9%
+Epoch 4/20 | Loss: 15.6983 | Accuracy: 70.2%
+Epoch 5/20 | Loss: 10.8727 | Accuracy: 79.3%
+Epoch 6/20 | Loss: 6.6757 | Accuracy: 88.4%
+Epoch 7/20 | Loss: 4.4048 | Accuracy: 91.8%
+Epoch 8/20 | Loss: 3.3238 | Accuracy: 94.1%
+Epoch 9/20 | Loss: 2.3645 | Accuracy: 95.6%
+Epoch 10/20 | Loss: 2.2035 | Accuracy: 96.0%
+Epoch 11/20 | Loss: 1.5817 | Accuracy: 97.8%
+Epoch 12/20 | Loss: 2.2238 | Accuracy: 95.5%
+Epoch 13/20 | Loss: 1.7365 | Accuracy: 96.9%
+Epoch 14/20 | Loss: 1.0131 | Accuracy: 98.2%
+Epoch 15/20 | Loss: 1.0901 | Accuracy: 97.8%
+Epoch 16/20 | Loss: 0.6487 | Accuracy: 98.6%
+Epoch 17/20 | Loss: 0.6130 | Accuracy: 99.1%
+Epoch 18/20 | Loss: 0.7470 | Accuracy: 98.8%
+Epoch 19/20 | Loss: 0.6536 | Accuracy: 98.9%
+Epoch 20/20 | Loss: 0.6388 | Accuracy: 99.1%
+Total Training Time: 1724073.5 ms
+Model 2 test:
+Test Accuracy: 92.0% | Test Time: 9550.5 ms
+
+========== RESULTS TABLE ==========
+Model                       Train Acc     Train Time   Test Acc      Test Time
+--------------------------------------------------------------------------------
+AlexNet                         98.2%   1685468.1 ms      89.3%     12393.0 ms
+AlexNet with attention          99.1%   1724073.5 ms      92.0%      9550.5 ms
