@@ -28,7 +28,5 @@ Matplotlib
 
 ## Results
 
-- **Handwritten Digit Classification:** 98.4% Test Accuracy
-- **Speech Recognition:** 94.0% Test Accuracy
-
-ch Recognition	              94.0%
+- **Handwritten Digit Classification:** 98.4% Best Test Accuracy
+- **Speech Recognition:** 94.0% Best Test Accuracy
