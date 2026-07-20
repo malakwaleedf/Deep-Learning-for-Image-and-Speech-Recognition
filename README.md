@@ -27,8 +27,8 @@ NumPy
 Matplotlib
 
 ## Results
-Task	                            Best Test Accuracy
 
-Handwritten Digit Classification	98.4%
+- **Handwritten Digit Classification:** 98.4% Test Accuracy
+- **Speech Recognition:** 94.0% Test Accuracy
 
-Speech Recognition	              94.0%
+ch Recognition	              94.0%
